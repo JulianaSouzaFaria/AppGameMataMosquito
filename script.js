@@ -10,7 +10,7 @@ var nivel = window.location.search
 nivel = nivel.replace("?","")
 if (nivel === "normal") {criaMosquitoTempo = 2000}
 if (nivel === "dificil") {criaMosquitoTempo = 1200}
-if (nivel === "chucknorris") {criaMosquitoTempo = 900
+if (nivel === "chucknorris") {criaMosquitoTempo = 500
 }
 
 function ajustaTamanhoTela() {
